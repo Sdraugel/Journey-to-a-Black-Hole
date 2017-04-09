@@ -1,0 +1,1066 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04074E87196ADCDE008E83D0 /* FallingInto.png in Resources */ = {isa = PBXBuildFile; fileRef = 04074E86196ADCDE008E83D0 /* FallingInto.png */; };
+		04074E89196ADCFF008E83D0 /* ObserveFalling.png in Resources */ = {isa = PBXBuildFile; fileRef = 04074E88196ADCFF008E83D0 /* ObserveFalling.png */; };
+		041A02CD197025D600995C68 /* nsf_logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 041A02CC197025D600995C68 /* nsf_logo.gif */; };
+		041A02D019702D2A00995C68 /* CustomSegues.m in Sources */ = {isa = PBXBuildFile; fileRef = 041A02CF19702D2A00995C68 /* CustomSegues.m */; };
+		041A02D219702D7300995C68 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041A02D119702D7300995C68 /* QuartzCore.framework */; };
+		042044351979639A00ED7C32 /* star collapse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 042044341979639A00ED7C32 /* star collapse.jpg */; };
+		042362EE19742C7000029E26 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 042362ED19742C7000029E26 /* star.png */; };
+		04241C5A1964486E0049F80E /* FallingIntoABHMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 04241C591964486E0049F80E /* FallingIntoABHMenu.m */; };
+		04242D201974140B008275F1 /* redSuperGiant.png in Resources */ = {isa = PBXBuildFile; fileRef = 04242D1D1974140B008275F1 /* redSuperGiant.png */; };
+		04242D211974140B008275F1 /* TheSun.png in Resources */ = {isa = PBXBuildFile; fileRef = 04242D1E1974140B008275F1 /* TheSun.png */; };
+		04242D221974140B008275F1 /* whiteDwarf.png in Resources */ = {isa = PBXBuildFile; fileRef = 04242D1F1974140B008275F1 /* whiteDwarf.png */; };
+		04254B1219647352002C6FE7 /* sgrA radio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04254B1119647352002C6FE7 /* sgrA radio.jpg */; };
+		04254B1619647FC4002C6FE7 /* bubble nebula.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04254B1519647FC4002C6FE7 /* bubble nebula.jpg */; };
+		043C45BE197810FE00E2B8B3 /* shoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 043C45BD197810FE00E2B8B3 /* shoe.jpg */; };
+		043C45C0197811BA00E2B8B3 /* paper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 043C45BF197811BA00E2B8B3 /* paper.jpg */; };
+		043C45C21978176700E2B8B3 /* Milky_Way_New_Clipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 043C45C11978176700E2B8B3 /* Milky_Way_New_Clipped.png */; };
+		043D4183194F2EB200602D0F /* FallingIntoBHScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D4180194F2EB200602D0F /* FallingIntoBHScene.m */; };
+		043D4184194F2EB200602D0F /* FallingIntoBHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043D4182194F2EB200602D0F /* FallingIntoBHViewController.m */; };
+		046514891975894F004913FB /* lensing effect.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046514881975894F004913FB /* lensing effect.jpg */; };
+		046E998A197410EF00A8E2DF /* blankChalkboard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046E9989197410EF00A8E2DF /* blankChalkboard.jpg */; };
+		04BBDD9F196DC918000ACA58 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		8115A273196C6DBD00F81658 /* FallIntoBHMenuPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A9D7C1196B21820015FC9B /* FallIntoBHMenuPic.jpg */; };
+		8115A274196C6DC200F81658 /* sgrA_xrays.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048EE070196C4C7900B6DDD4 /* sgrA_xrays.jpg */; };
+		8115A275196C6DC900F81658 /* vortex1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A9D7CA196B2B420015FC9B /* vortex1.jpg */; };
+		8115A276196C6DD000F81658 /* Fishingweights.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A9D7C4196B2A870015FC9B /* Fishingweights.jpg */; };
+		8115A277196C6DD400F81658 /* marbles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A9D7C5196B2A870015FC9B /* marbles.jpg */; };
+		8115A278196C6DD900F81658 /* Red-Bucket.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A9D7C6196B2A870015FC9B /* Red-Bucket.jpg */; };
+		8115A279196C6DE100F81658 /* ergosphere.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A9D7BD196B1E780015FC9B /* ergosphere.png */; };
+		8115A27A196C6DE500F81658 /* eventHorizonDrawing.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A9D7BE196B1E780015FC9B /* eventHorizonDrawing.png */; };
+		8115A27B196C6DEA00F81658 /* Activities.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A43B74196B196100D7EBD8 /* Activities.png */; };
+		8115A27D196C6DF300F81658 /* AstronautFlipBook.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A43B70196B13AF00D7EBD8 /* AstronautFlipBook.png */; };
+		8115A27E196C6DF600F81658 /* Spaghettification.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 04A43B6E196B12C300D7EBD8 /* Spaghettification.jpeg */; };
+		8115A280196C6DFF00F81658 /* EasyExperimentFoamBoard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A43B6A196B003A00D7EBD8 /* EasyExperimentFoamBoard.jpg */; };
+		8115A281196C6E0300F81658 /* EasyExperimentMagnetMarbles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A43B68196AFF8600D7EBD8 /* EasyExperimentMagnetMarbles.jpg */; };
+		8115A282196C6E0700F81658 /* EasyExperimentMagnet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A43B66196AFEB800D7EBD8 /* EasyExperimentMagnet.jpg */; };
+		8D3B65E8196DA2C000B43532 /* openBook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D3B65E7196DA2C000B43532 /* openBook.jpg */; };
+		8D3B65EA196DC7CC00B43532 /* accretion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D3B65E9196DC7CC00B43532 /* accretion.jpg */; };
+		8D3B65EC196DCD0D00B43532 /* starfield.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D3B65EB196DCD0D00B43532 /* starfield.png */; };
+		8D3B65EE196DD32D00B43532 /* NASA-BHSimulation.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8D3B65ED196DD32D00B43532 /* NASA-BHSimulation.mp4 */; };
+		8D3B65F0196DD55600B43532 /* accretionVidPic.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D3B65EF196DD55600B43532 /* accretionVidPic.png */; };
+		8D495B6E19794E2E00CE367D /* cofcLogo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8D495B6D19794E2E00CE367D /* cofcLogo.jpeg */; };
+		8D5913E8196B2F3E00BD342D /* singularity.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5913E7196B2F3E00BD342D /* singularity.png */; };
+		8D5FA55E1962F41400D013C1 /* ObserveFallingIntoBHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FA55D1962F41400D013C1 /* ObserveFallingIntoBHViewController.m */; };
+		8D5FA5611962F48C00D013C1 /* ObserveFallingIntoBHScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FA5601962F48C00D013C1 /* ObserveFallingIntoBHScene.m */; };
+		8D5FA5671963072D00D013C1 /* astro.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5FA5641963072D00D013C1 /* astro.png */; };
+		8D5FA5681963072D00D013C1 /* nightSky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D5FA5651963072D00D013C1 /* nightSky.jpg */; };
+		8D5FA5691963072D00D013C1 /* nightSky2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D5FA5661963072D00D013C1 /* nightSky2.jpg */; };
+		8D8305DD196EE1FF009DF2D4 /* ScienceActivityMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D8305DC196EE1FF009DF2D4 /* ScienceActivityMenu.png */; };
+		8D8305DF196EF11F009DF2D4 /* cygDiagram.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8D8305DE196EF11F009DF2D4 /* cygDiagram.gif */; };
+		8DC031F71975B9CC0068AE25 /* sgrA_xrays_mod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC031F61975B9CC0068AE25 /* sgrA_xrays_mod.jpg */; };
+		8DD8AF1D196C6562004BB48D /* ehtMap1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD8AF19196C6562004BB48D /* ehtMap1.png */; };
+		8DD8AF1E196C6562004BB48D /* ehtMap2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD8AF1A196C6562004BB48D /* ehtMap2.png */; };
+		8DD8AF1F196C6562004BB48D /* ehtPic1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD8AF1B196C6562004BB48D /* ehtPic1.png */; };
+		8DD8AF20196C6562004BB48D /* ehtPic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD8AF1C196C6562004BB48D /* ehtPic2.png */; };
+		8DD8AF23196C75FD004BB48D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE69F4194B420100B92BB6 /* Main_iPad.storyboard */; };
+		8DD8AF24196C7644004BB48D /* EasyExperimentExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A43B6C196B04BA00D7EBD8 /* EasyExperimentExample.png */; };
+		8DE763531965B5570048249C /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DE763521965B5560048249C /* black.jpg */; };
+		8DE763571965DF2D0048249C /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE763561965DF2D0048249C /* sun.png */; };
+		8DFE69E0194B420100B92BB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFE69DF194B420100B92BB6 /* Foundation.framework */; };
+		8DFE69E2194B420100B92BB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFE69E1194B420100B92BB6 /* CoreGraphics.framework */; };
+		8DFE69E4194B420100B92BB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFE69E3194B420100B92BB6 /* UIKit.framework */; };
+		8DFE69EA194B420100B92BB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE69E8194B420100B92BB6 /* InfoPlist.strings */; };
+		8DFE69EC194B420100B92BB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE69EB194B420100B92BB6 /* main.m */; };
+		8DFE69F0194B420100B92BB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE69EF194B420100B92BB6 /* AppDelegate.m */; };
+		8DFE69FB194B420100B92BB6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE69FA194B420100B92BB6 /* Images.xcassets */; };
+		8DFE6A02194B420100B92BB6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFE6A01194B420100B92BB6 /* XCTest.framework */; };
+		8DFE6A03194B420100B92BB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFE69DF194B420100B92BB6 /* Foundation.framework */; };
+		8DFE6A04194B420100B92BB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFE69E3194B420100B92BB6 /* UIKit.framework */; };
+		8DFE6A0C194B420100B92BB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A0A194B420100B92BB6 /* InfoPlist.strings */; };
+		8DFE6A0E194B420100B92BB6 /* BlackHoleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE6A0D194B420100B92BB6 /* BlackHoleAppTests.m */; };
+		8DFE6A20194B42C200B92BB6 /* bh1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A1B194B42C200B92BB6 /* bh1.jpg */; };
+		8DFE6A21194B42C200B92BB6 /* bh2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A1C194B42C200B92BB6 /* bh2.jpg */; };
+		8DFE6A22194B42C200B92BB6 /* bh3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A1D194B42C200B92BB6 /* bh3.jpg */; };
+		8DFE6A23194B42C200B92BB6 /* bh4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A1E194B42C200B92BB6 /* bh4.jpg */; };
+		8DFE6A5D194B434200B92BB6 /* bh5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A24194B434100B92BB6 /* bh5.jpg */; };
+		8DFE6A5E194B434200B92BB6 /* bh6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A25194B434100B92BB6 /* bh6.jpg */; };
+		8DFE6A5F194B434200B92BB6 /* bh7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A26194B434100B92BB6 /* bh7.jpg */; };
+		8DFE6A60194B434200B92BB6 /* bh8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A27194B434100B92BB6 /* bh8.jpg */; };
+		8DFE6A61194B434200B92BB6 /* bh9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A28194B434100B92BB6 /* bh9.jpg */; };
+		8DFE6A62194B434200B92BB6 /* bh10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A29194B434100B92BB6 /* bh10.jpg */; };
+		8DFE6A63194B434200B92BB6 /* bh11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A2A194B434100B92BB6 /* bh11.jpg */; };
+		8DFE6A64194B434200B92BB6 /* bh12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A2B194B434100B92BB6 /* bh12.jpg */; };
+		8DFE6A65194B434200B92BB6 /* bh13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A2C194B434100B92BB6 /* bh13.jpg */; };
+		8DFE6A66194B434200B92BB6 /* bh14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A2D194B434100B92BB6 /* bh14.jpg */; };
+		8DFE6A67194B434200B92BB6 /* bh15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A2E194B434100B92BB6 /* bh15.jpg */; };
+		8DFE6A68194B434200B92BB6 /* bh16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A2F194B434100B92BB6 /* bh16.jpg */; };
+		8DFE6A69194B434200B92BB6 /* bhSpriteImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A30194B434100B92BB6 /* bhSpriteImage.png */; };
+		8DFE6A6A194B434200B92BB6 /* Blackhole.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A31194B434100B92BB6 /* Blackhole.jpg */; };
+		8DFE6A6C194B434200B92BB6 /* EasyExp2pic1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A33194B434100B92BB6 /* EasyExp2pic1.gif */; };
+		8DFE6A6D194B434200B92BB6 /* EasyExp2Pic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A34194B434100B92BB6 /* EasyExp2Pic2.png */; };
+		8DFE6A6E194B434200B92BB6 /* EasyLessonPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE6A36194B434100B92BB6 /* EasyLessonPlanViewController.m */; };
+		8DFE6A70194B434200B92BB6 /* galaxy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A38194B434100B92BB6 /* galaxy.jpg */; };
+		8DFE6A71194B434200B92BB6 /* galaxyPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A39194B434100B92BB6 /* galaxyPic.jpg */; };
+		8DFE6A72194B434200B92BB6 /* HardLessonPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE6A3B194B434100B92BB6 /* HardLessonPlanViewController.m */; };
+		8DFE6A73194B434200B92BB6 /* image3304.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A3C194B434100B92BB6 /* image3304.png */; };
+		8DFE6A74194B434200B92BB6 /* key.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A3D194B434100B92BB6 /* key.jpg */; };
+		8DFE6A76194B434200B92BB6 /* lensingEffect.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A3F194B434100B92BB6 /* lensingEffect.png */; };
+		8DFE6A79194B434200B92BB6 /* LessonPlansViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE6A43194B434100B92BB6 /* LessonPlansViewController.m */; };
+		8DFE6A7B194B434200B92BB6 /* M82pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A45194B434100B92BB6 /* M82pic.jpg */; };
+		8DFE6A7E194B434200B92BB6 /* MiddleLessonPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE6A49194B434200B92BB6 /* MiddleLessonPlanViewController.m */; };
+		8DFE6A80194B434200B92BB6 /* milkyWayOverhead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A4B194B434200B92BB6 /* milkyWayOverhead.jpg */; };
+		8DFE6A81194B434200B92BB6 /* MilkyWayQuarter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A4C194B434200B92BB6 /* MilkyWayQuarter.jpg */; };
+		8DFE6A82194B434200B92BB6 /* ModerateExp2Pic1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A4D194B434200B92BB6 /* ModerateExp2Pic1.png */; };
+		8DFE6A84194B434200B92BB6 /* MWCenter.mov in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A4F194B434200B92BB6 /* MWCenter.mov */; };
+		8DFE6A87194B434200B92BB6 /* primordialBHpic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A53194B434200B92BB6 /* primordialBHpic.jpg */; };
+		8DFE6A88194B434200B92BB6 /* Prism_Drawing.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A54194B434200B92BB6 /* Prism_Drawing.png */; };
+		8DFE6A89194B434200B92BB6 /* prism_setup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A55194B434200B92BB6 /* prism_setup.jpg */; };
+		8DFE6A8B194B434200B92BB6 /* rainbow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A57194B434200B92BB6 /* rainbow.jpg */; };
+		8DFE6A8D194B434200B92BB6 /* SMBHpic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A5A194B434200B92BB6 /* SMBHpic.jpg */; };
+		8DFE6A8F194B434200B92BB6 /* SpaceShuttle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A5C194B434200B92BB6 /* SpaceShuttle.jpg */; };
+		8DFE6AAB194B437300B92BB6 /* SSABackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A90194B437300B92BB6 /* SSABackground.jpg */; };
+		8DFE6AAC194B437300B92BB6 /* sunMercury.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A91194B437300B92BB6 /* sunMercury.jpg */; };
+		8DFE6AAD194B437300B92BB6 /* sunPic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A92194B437300B92BB6 /* sunPic.jpeg */; };
+		8DFE6AAE194B437300B92BB6 /* sunpic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A93194B437300B92BB6 /* sunpic.jpg */; };
+		8DFE6AAF194B437300B92BB6 /* sunspic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A94194B437300B92BB6 /* sunspic.jpg */; };
+		8DFE6AB0194B437300B92BB6 /* supernova.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A95194B437300B92BB6 /* supernova.mp4 */; };
+		8DFE6AB2194B437300B92BB6 /* supernovaPic.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6A97194B437300B92BB6 /* supernovaPic.png */; };
+		8DFE6AB3194B437300B92BB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE6A99194B437300B92BB6 /* ViewController.m */; };
+		8DFE6AB6194B437300B92BB6 /* WhereAreTheBHScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE6A9E194B437300B92BB6 /* WhereAreTheBHScene.m */; };
+		8DFE6AB7194B437300B92BB6 /* WhereAreTheBHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE6AA0194B437300B92BB6 /* WhereAreTheBHViewController.m */; };
+		8DFE6AB8194B437300B92BB6 /* EasyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE6AA2194B437300B92BB6 /* EasyViewController.m */; };
+		8DFE6AB9194B437300B92BB6 /* HardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE6AA4194B437300B92BB6 /* HardViewController.m */; };
+		8DFE6ABA194B437300B92BB6 /* Journey.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE6AA6194B437300B92BB6 /* Journey.m */; };
+		8DFE6ABB194B437300B92BB6 /* ModerateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE6AA8194B437300B92BB6 /* ModerateViewController.m */; };
+		8DFE6ABC194B437300B92BB6 /* StudentScienceActivitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE6AAA194B437300B92BB6 /* StudentScienceActivitiesViewController.m */; };
+		8DFE6AC5194B465200B92BB6 /* EasyQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE6ABE194B465200B92BB6 /* EasyQuizViewController.m */; };
+		8DFE6AC6194B465200B92BB6 /* HardQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE6AC0194B465200B92BB6 /* HardQuizViewController.m */; };
+		8DFE6AC7194B465200B92BB6 /* MediumQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE6AC2194B465200B92BB6 /* MediumQuizViewController.m */; };
+		8DFE6AC8194B465200B92BB6 /* StudentTestingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE6AC4194B465200B92BB6 /* StudentTestingViewController.m */; };
+		8DFE6ACA194B470100B92BB6 /* desk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE6AC9194B470100B92BB6 /* desk.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DFE6A05194B420100B92BB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DFE69D4194B420100B92BB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DFE69DB194B420100B92BB6;
+			remoteInfo = BlackHoleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04074E86196ADCDE008E83D0 /* FallingInto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FallingInto.png; path = BlackHoleApp/FallingInto.png; sourceTree = BlackHoleApp; };
+		04074E88196ADCFF008E83D0 /* ObserveFalling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ObserveFalling.png; path = BlackHoleApp/ObserveFalling.png; sourceTree = BlackHoleApp; };
+		041A02CC197025D600995C68 /* nsf_logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = nsf_logo.gif; path = BlackHoleApp/nsf_logo.gif; sourceTree = BlackHoleApp; };
+		041A02CE19702D2A00995C68 /* CustomSegues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegues.h; sourceTree = "<group>"; };
+		041A02CF19702D2A00995C68 /* CustomSegues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegues.m; sourceTree = "<group>"; };
+		041A02D119702D7300995C68 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		042044341979639A00ED7C32 /* star collapse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "star collapse.jpg"; sourceTree = "<group>"; };
+		042362ED19742C7000029E26 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = BlackHoleApp/star.png; sourceTree = BlackHoleApp; };
+		04241C581964486E0049F80E /* FallingIntoABHMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FallingIntoABHMenu.h; sourceTree = "<group>"; };
+		04241C591964486E0049F80E /* FallingIntoABHMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FallingIntoABHMenu.m; sourceTree = "<group>"; };
+		04242D1D1974140B008275F1 /* redSuperGiant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redSuperGiant.png; path = BlackHoleApp/redSuperGiant.png; sourceTree = BlackHoleApp; };
+		04242D1E1974140B008275F1 /* TheSun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TheSun.png; path = BlackHoleApp/TheSun.png; sourceTree = BlackHoleApp; };
+		04242D1F1974140B008275F1 /* whiteDwarf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whiteDwarf.png; path = BlackHoleApp/whiteDwarf.png; sourceTree = BlackHoleApp; };
+		04254B1119647352002C6FE7 /* sgrA radio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sgrA radio.jpg"; path = "BlackHoleApp/sgrA radio.jpg"; sourceTree = BlackHoleApp; };
+		04254B1519647FC4002C6FE7 /* bubble nebula.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "bubble nebula.jpg"; path = "BlackHoleApp/bubble nebula.jpg"; sourceTree = BlackHoleApp; };
+		043C45BD197810FE00E2B8B3 /* shoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoe.jpg; sourceTree = "<group>"; };
+		043C45BF197811BA00E2B8B3 /* paper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paper.jpg; sourceTree = "<group>"; };
+		043C45C11978176700E2B8B3 /* Milky_Way_New_Clipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Milky_Way_New_Clipped.png; sourceTree = "<group>"; };
+		043D417F194F2EB200602D0F /* FallingIntoBHScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FallingIntoBHScene.h; sourceTree = "<group>"; };
+		043D4180194F2EB200602D0F /* FallingIntoBHScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FallingIntoBHScene.m; sourceTree = "<group>"; };
+		043D4181194F2EB200602D0F /* FallingIntoBHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FallingIntoBHViewController.h; sourceTree = "<group>"; };
+		043D4182194F2EB200602D0F /* FallingIntoBHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FallingIntoBHViewController.m; sourceTree = "<group>"; };
+		046514881975894F004913FB /* lensing effect.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "lensing effect.jpg"; path = "BlackHoleApp/lensing effect.jpg"; sourceTree = BlackHoleApp; };
+		046E9989197410EF00A8E2DF /* blankChalkboard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blankChalkboard.jpg; sourceTree = "<group>"; };
+		048EE070196C4C7900B6DDD4 /* sgrA_xrays.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sgrA_xrays.jpg; path = BlackHoleApp/sgrA_xrays.jpg; sourceTree = BlackHoleApp; };
+		04A43B66196AFEB800D7EBD8 /* EasyExperimentMagnet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = EasyExperimentMagnet.jpg; path = BlackHoleApp/EasyExperimentMagnet.jpg; sourceTree = BlackHoleApp; };
+		04A43B68196AFF8600D7EBD8 /* EasyExperimentMagnetMarbles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = EasyExperimentMagnetMarbles.jpg; path = BlackHoleApp/EasyExperimentMagnetMarbles.jpg; sourceTree = BlackHoleApp; };
+		04A43B6A196B003A00D7EBD8 /* EasyExperimentFoamBoard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = EasyExperimentFoamBoard.jpg; path = BlackHoleApp/EasyExperimentFoamBoard.jpg; sourceTree = BlackHoleApp; };
+		04A43B6C196B04BA00D7EBD8 /* EasyExperimentExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EasyExperimentExample.png; path = BlackHoleApp/EasyExperimentExample.png; sourceTree = BlackHoleApp; };
+		04A43B6E196B12C300D7EBD8 /* Spaghettification.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Spaghettification.jpeg; path = BlackHoleApp/Spaghettification.jpeg; sourceTree = BlackHoleApp; };
+		04A43B70196B13AF00D7EBD8 /* AstronautFlipBook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AstronautFlipBook.png; path = BlackHoleApp/AstronautFlipBook.png; sourceTree = BlackHoleApp; };
+		04A43B74196B196100D7EBD8 /* Activities.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Activities.png; path = BlackHoleApp/Activities.png; sourceTree = BlackHoleApp; };
+		04A9D7B9196B1DDA0015FC9B /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon.png; sourceTree = "<group>"; };
+		04A9D7BA196B1DDA0015FC9B /* appIconx2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIconx2.png; sourceTree = "<group>"; };
+		04A9D7BD196B1E780015FC9B /* ergosphere.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ergosphere.png; path = BlackHoleApp/ergosphere.png; sourceTree = BlackHoleApp; };
+		04A9D7BE196B1E780015FC9B /* eventHorizonDrawing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eventHorizonDrawing.png; path = BlackHoleApp/eventHorizonDrawing.png; sourceTree = BlackHoleApp; };
+		04A9D7C1196B21820015FC9B /* FallIntoBHMenuPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FallIntoBHMenuPic.jpg; path = BlackHoleApp/FallIntoBHMenuPic.jpg; sourceTree = BlackHoleApp; };
+		04A9D7C4196B2A870015FC9B /* Fishingweights.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fishingweights.jpg; path = BlackHoleApp/Fishingweights.jpg; sourceTree = BlackHoleApp; };
+		04A9D7C5196B2A870015FC9B /* marbles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = marbles.jpg; path = BlackHoleApp/marbles.jpg; sourceTree = BlackHoleApp; };
+		04A9D7C6196B2A870015FC9B /* Red-Bucket.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Red-Bucket.jpg"; path = "BlackHoleApp/Red-Bucket.jpg"; sourceTree = BlackHoleApp; };
+		04A9D7CA196B2B420015FC9B /* vortex1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = vortex1.jpg; path = BlackHoleApp/vortex1.jpg; sourceTree = BlackHoleApp; };
+		8D3B65E7196DA2C000B43532 /* openBook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = openBook.jpg; sourceTree = "<group>"; };
+		8D3B65E9196DC7CC00B43532 /* accretion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = accretion.jpg; sourceTree = "<group>"; };
+		8D3B65EB196DCD0D00B43532 /* starfield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starfield.png; sourceTree = "<group>"; };
+		8D3B65ED196DD32D00B43532 /* NASA-BHSimulation.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NASA-BHSimulation.mp4"; sourceTree = "<group>"; };
+		8D3B65EF196DD55600B43532 /* accretionVidPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accretionVidPic.png; sourceTree = "<group>"; };
+		8D495B6D19794E2E00CE367D /* cofcLogo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cofcLogo.jpeg; sourceTree = "<group>"; };
+		8D5913E7196B2F3E00BD342D /* singularity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = singularity.png; path = BlackHoleApp/singularity.png; sourceTree = BlackHoleApp; };
+		8D5FA55C1962F41400D013C1 /* ObserveFallingIntoBHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserveFallingIntoBHViewController.h; sourceTree = "<group>"; };
+		8D5FA55D1962F41400D013C1 /* ObserveFallingIntoBHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObserveFallingIntoBHViewController.m; sourceTree = "<group>"; };
+		8D5FA55F1962F48C00D013C1 /* ObserveFallingIntoBHScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserveFallingIntoBHScene.h; sourceTree = "<group>"; };
+		8D5FA5601962F48C00D013C1 /* ObserveFallingIntoBHScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObserveFallingIntoBHScene.m; sourceTree = "<group>"; };
+		8D5FA5641963072D00D013C1 /* astro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = astro.png; path = BlackHoleApp/astro.png; sourceTree = BlackHoleApp; };
+		8D5FA5651963072D00D013C1 /* nightSky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nightSky.jpg; path = BlackHoleApp/nightSky.jpg; sourceTree = BlackHoleApp; };
+		8D5FA5661963072D00D013C1 /* nightSky2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nightSky2.jpg; path = BlackHoleApp/nightSky2.jpg; sourceTree = BlackHoleApp; };
+		8D8305DC196EE1FF009DF2D4 /* ScienceActivityMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScienceActivityMenu.png; sourceTree = "<group>"; };
+		8D8305DE196EF11F009DF2D4 /* cygDiagram.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cygDiagram.gif; sourceTree = "<group>"; };
+		8DC031F61975B9CC0068AE25 /* sgrA_xrays_mod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sgrA_xrays_mod.jpg; sourceTree = "<group>"; };
+		8DD8AF19196C6562004BB48D /* ehtMap1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ehtMap1.png; sourceTree = "<group>"; };
+		8DD8AF1A196C6562004BB48D /* ehtMap2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ehtMap2.png; sourceTree = "<group>"; };
+		8DD8AF1B196C6562004BB48D /* ehtPic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ehtPic1.png; sourceTree = "<group>"; };
+		8DD8AF1C196C6562004BB48D /* ehtPic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ehtPic2.png; sourceTree = "<group>"; };
+		8DE763521965B5560048249C /* black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = black.jpg; path = BlackHoleApp/black.jpg; sourceTree = BlackHoleApp; };
+		8DE763561965DF2D0048249C /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sun.png; path = BlackHoleApp/sun.png; sourceTree = BlackHoleApp; };
+		8DFE69DC194B420100B92BB6 /* Journey to a Black Hole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Journey to a Black Hole.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DFE69DF194B420100B92BB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8DFE69E1194B420100B92BB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8DFE69E3194B420100B92BB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8DFE69E7194B420100B92BB6 /* BlackHoleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlackHoleApp-Info.plist"; sourceTree = "<group>"; };
+		8DFE69E9194B420100B92BB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8DFE69EB194B420100B92BB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DFE69ED194B420100B92BB6 /* BlackHoleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlackHoleApp-Prefix.pch"; sourceTree = "<group>"; };
+		8DFE69EE194B420100B92BB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DFE69EF194B420100B92BB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8DFE69F2194B420100B92BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		8DFE69F5194B420100B92BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		8DFE69FA194B420100B92BB6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8DFE6A00194B420100B92BB6 /* BlackHoleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackHoleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DFE6A01194B420100B92BB6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8DFE6A09194B420100B92BB6 /* BlackHoleAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlackHoleAppTests-Info.plist"; sourceTree = "<group>"; };
+		8DFE6A0B194B420100B92BB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8DFE6A0D194B420100B92BB6 /* BlackHoleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackHoleAppTests.m; sourceTree = "<group>"; };
+		8DFE6A1B194B42C200B92BB6 /* bh1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bh1.jpg; path = BlackHoleApp/bh1.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A1C194B42C200B92BB6 /* bh2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bh2.jpg; path = BlackHoleApp/bh2.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A1D194B42C200B92BB6 /* bh3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bh3.jpg; path = BlackHoleApp/bh3.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A1E194B42C200B92BB6 /* bh4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bh4.jpg; path = BlackHoleApp/bh4.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A24194B434100B92BB6 /* bh5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bh5.jpg; path = BlackHoleApp/bh5.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A25194B434100B92BB6 /* bh6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bh6.jpg; path = BlackHoleApp/bh6.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A26194B434100B92BB6 /* bh7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bh7.jpg; path = BlackHoleApp/bh7.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A27194B434100B92BB6 /* bh8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bh8.jpg; path = BlackHoleApp/bh8.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A28194B434100B92BB6 /* bh9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bh9.jpg; path = BlackHoleApp/bh9.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A29194B434100B92BB6 /* bh10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bh10.jpg; path = BlackHoleApp/bh10.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A2A194B434100B92BB6 /* bh11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bh11.jpg; path = BlackHoleApp/bh11.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A2B194B434100B92BB6 /* bh12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bh12.jpg; path = BlackHoleApp/bh12.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A2C194B434100B92BB6 /* bh13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bh13.jpg; path = BlackHoleApp/bh13.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A2D194B434100B92BB6 /* bh14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bh14.jpg; path = BlackHoleApp/bh14.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A2E194B434100B92BB6 /* bh15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bh15.jpg; path = BlackHoleApp/bh15.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A2F194B434100B92BB6 /* bh16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bh16.jpg; path = BlackHoleApp/bh16.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A30194B434100B92BB6 /* bhSpriteImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bhSpriteImage.png; path = BlackHoleApp/bhSpriteImage.png; sourceTree = BlackHoleApp; };
+		8DFE6A31194B434100B92BB6 /* Blackhole.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Blackhole.jpg; path = BlackHoleApp/Blackhole.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A33194B434100B92BB6 /* EasyExp2pic1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = EasyExp2pic1.gif; path = BlackHoleApp/EasyExp2pic1.gif; sourceTree = BlackHoleApp; };
+		8DFE6A34194B434100B92BB6 /* EasyExp2Pic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EasyExp2Pic2.png; path = BlackHoleApp/EasyExp2Pic2.png; sourceTree = BlackHoleApp; };
+		8DFE6A35194B434100B92BB6 /* EasyLessonPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EasyLessonPlanViewController.h; path = BlackHoleApp/EasyLessonPlanViewController.h; sourceTree = BlackHoleApp; };
+		8DFE6A36194B434100B92BB6 /* EasyLessonPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EasyLessonPlanViewController.m; path = BlackHoleApp/EasyLessonPlanViewController.m; sourceTree = BlackHoleApp; };
+		8DFE6A38194B434100B92BB6 /* galaxy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = galaxy.jpg; path = BlackHoleApp/galaxy.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A39194B434100B92BB6 /* galaxyPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = galaxyPic.jpg; path = BlackHoleApp/galaxyPic.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A3A194B434100B92BB6 /* HardLessonPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HardLessonPlanViewController.h; path = BlackHoleApp/HardLessonPlanViewController.h; sourceTree = BlackHoleApp; };
+		8DFE6A3B194B434100B92BB6 /* HardLessonPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HardLessonPlanViewController.m; path = BlackHoleApp/HardLessonPlanViewController.m; sourceTree = BlackHoleApp; };
+		8DFE6A3C194B434100B92BB6 /* image3304.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image3304.png; path = BlackHoleApp/image3304.png; sourceTree = BlackHoleApp; };
+		8DFE6A3D194B434100B92BB6 /* key.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = key.jpg; path = BlackHoleApp/key.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A3F194B434100B92BB6 /* lensingEffect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lensingEffect.png; path = BlackHoleApp/lensingEffect.png; sourceTree = BlackHoleApp; };
+		8DFE6A42194B434100B92BB6 /* LessonPlansViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LessonPlansViewController.h; path = BlackHoleApp/LessonPlansViewController.h; sourceTree = BlackHoleApp; };
+		8DFE6A43194B434100B92BB6 /* LessonPlansViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LessonPlansViewController.m; path = BlackHoleApp/LessonPlansViewController.m; sourceTree = BlackHoleApp; };
+		8DFE6A45194B434100B92BB6 /* M82pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = M82pic.jpg; path = BlackHoleApp/M82pic.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A48194B434200B92BB6 /* MiddleLessonPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MiddleLessonPlanViewController.h; path = BlackHoleApp/MiddleLessonPlanViewController.h; sourceTree = BlackHoleApp; };
+		8DFE6A49194B434200B92BB6 /* MiddleLessonPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MiddleLessonPlanViewController.m; path = BlackHoleApp/MiddleLessonPlanViewController.m; sourceTree = BlackHoleApp; };
+		8DFE6A4B194B434200B92BB6 /* milkyWayOverhead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = milkyWayOverhead.jpg; path = BlackHoleApp/milkyWayOverhead.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A4C194B434200B92BB6 /* MilkyWayQuarter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MilkyWayQuarter.jpg; path = BlackHoleApp/MilkyWayQuarter.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A4D194B434200B92BB6 /* ModerateExp2Pic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ModerateExp2Pic1.png; path = BlackHoleApp/ModerateExp2Pic1.png; sourceTree = BlackHoleApp; };
+		8DFE6A4F194B434200B92BB6 /* MWCenter.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = MWCenter.mov; path = BlackHoleApp/MWCenter.mov; sourceTree = BlackHoleApp; };
+		8DFE6A53194B434200B92BB6 /* primordialBHpic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = primordialBHpic.jpg; path = BlackHoleApp/primordialBHpic.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A54194B434200B92BB6 /* Prism_Drawing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Prism_Drawing.png; path = BlackHoleApp/Prism_Drawing.png; sourceTree = BlackHoleApp; };
+		8DFE6A55194B434200B92BB6 /* prism_setup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = prism_setup.jpg; path = BlackHoleApp/prism_setup.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A57194B434200B92BB6 /* rainbow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rainbow.jpg; path = BlackHoleApp/rainbow.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A5A194B434200B92BB6 /* SMBHpic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SMBHpic.jpg; path = BlackHoleApp/SMBHpic.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A5C194B434200B92BB6 /* SpaceShuttle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SpaceShuttle.jpg; path = BlackHoleApp/SpaceShuttle.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A90194B437300B92BB6 /* SSABackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SSABackground.jpg; path = BlackHoleApp/SSABackground.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A91194B437300B92BB6 /* sunMercury.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sunMercury.jpg; path = BlackHoleApp/sunMercury.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A92194B437300B92BB6 /* sunPic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sunPic.jpeg; path = BlackHoleApp/sunPic.jpeg; sourceTree = BlackHoleApp; };
+		8DFE6A93194B437300B92BB6 /* sunpic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sunpic.jpg; path = BlackHoleApp/sunpic.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A94194B437300B92BB6 /* sunspic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sunspic.jpg; path = BlackHoleApp/sunspic.jpg; sourceTree = BlackHoleApp; };
+		8DFE6A95194B437300B92BB6 /* supernova.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = supernova.mp4; path = BlackHoleApp/supernova.mp4; sourceTree = BlackHoleApp; };
+		8DFE6A97194B437300B92BB6 /* supernovaPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = supernovaPic.png; path = BlackHoleApp/supernovaPic.png; sourceTree = BlackHoleApp; };
+		8DFE6A98194B437300B92BB6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8DFE6A99194B437300B92BB6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8DFE6A9D194B437300B92BB6 /* WhereAreTheBHScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WhereAreTheBHScene.h; path = BlackHoleApp/WhereAreTheBHScene.h; sourceTree = BlackHoleApp; };
+		8DFE6A9E194B437300B92BB6 /* WhereAreTheBHScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WhereAreTheBHScene.m; path = BlackHoleApp/WhereAreTheBHScene.m; sourceTree = BlackHoleApp; };
+		8DFE6A9F194B437300B92BB6 /* WhereAreTheBHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WhereAreTheBHViewController.h; path = BlackHoleApp/WhereAreTheBHViewController.h; sourceTree = BlackHoleApp; };
+		8DFE6AA0194B437300B92BB6 /* WhereAreTheBHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WhereAreTheBHViewController.m; path = BlackHoleApp/WhereAreTheBHViewController.m; sourceTree = BlackHoleApp; };
+		8DFE6AA1194B437300B92BB6 /* EasyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyViewController.h; sourceTree = "<group>"; };
+		8DFE6AA2194B437300B92BB6 /* EasyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyViewController.m; sourceTree = "<group>"; };
+		8DFE6AA3194B437300B92BB6 /* HardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HardViewController.h; sourceTree = "<group>"; };
+		8DFE6AA4194B437300B92BB6 /* HardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HardViewController.m; sourceTree = "<group>"; };
+		8DFE6AA5194B437300B92BB6 /* Journey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Journey.h; sourceTree = "<group>"; };
+		8DFE6AA6194B437300B92BB6 /* Journey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Journey.m; sourceTree = "<group>"; };
+		8DFE6AA7194B437300B92BB6 /* ModerateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModerateViewController.h; sourceTree = "<group>"; };
+		8DFE6AA8194B437300B92BB6 /* ModerateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModerateViewController.m; sourceTree = "<group>"; };
+		8DFE6AA9194B437300B92BB6 /* StudentScienceActivitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentScienceActivitiesViewController.h; sourceTree = "<group>"; };
+		8DFE6AAA194B437300B92BB6 /* StudentScienceActivitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentScienceActivitiesViewController.m; sourceTree = "<group>"; };
+		8DFE6ABD194B465200B92BB6 /* EasyQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyQuizViewController.h; sourceTree = "<group>"; };
+		8DFE6ABE194B465200B92BB6 /* EasyQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyQuizViewController.m; sourceTree = "<group>"; };
+		8DFE6ABF194B465200B92BB6 /* HardQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HardQuizViewController.h; sourceTree = "<group>"; };
+		8DFE6AC0194B465200B92BB6 /* HardQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HardQuizViewController.m; sourceTree = "<group>"; };
+		8DFE6AC1194B465200B92BB6 /* MediumQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediumQuizViewController.h; sourceTree = "<group>"; };
+		8DFE6AC2194B465200B92BB6 /* MediumQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediumQuizViewController.m; sourceTree = "<group>"; };
+		8DFE6AC3194B465200B92BB6 /* StudentTestingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentTestingViewController.h; sourceTree = "<group>"; };
+		8DFE6AC4194B465200B92BB6 /* StudentTestingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentTestingViewController.m; sourceTree = "<group>"; };
+		8DFE6AC9194B470100B92BB6 /* desk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = desk.jpg; path = BlackHoleApp/desk.jpg; sourceTree = BlackHoleApp; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DFE69D9194B420100B92BB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041A02D219702D7300995C68 /* QuartzCore.framework in Frameworks */,
+				8DFE69E2194B420100B92BB6 /* CoreGraphics.framework in Frameworks */,
+				8DFE69E4194B420100B92BB6 /* UIKit.framework in Frameworks */,
+				8DFE69E0194B420100B92BB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DFE69FD194B420100B92BB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFE6A02194B420100B92BB6 /* XCTest.framework in Frameworks */,
+				8DFE6A04194B420100B92BB6 /* UIKit.framework in Frameworks */,
+				8DFE6A03194B420100B92BB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BBDD97196D8AB8000ACA58 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8DFE6A98194B437300B92BB6 /* ViewController.h */,
+				8DFE6A99194B437300B92BB6 /* ViewController.m */,
+				041A02CE19702D2A00995C68 /* CustomSegues.h */,
+				041A02CF19702D2A00995C68 /* CustomSegues.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		8D5FA5621962F69200D013C1 /* Observe Falling Into BH */ = {
+			isa = PBXGroup;
+			children = (
+				8D5FA55C1962F41400D013C1 /* ObserveFallingIntoBHViewController.h */,
+				8D5FA55D1962F41400D013C1 /* ObserveFallingIntoBHViewController.m */,
+				8D5FA55F1962F48C00D013C1 /* ObserveFallingIntoBHScene.h */,
+				8D5FA5601962F48C00D013C1 /* ObserveFallingIntoBHScene.m */,
+			);
+			name = "Observe Falling Into BH";
+			sourceTree = "<group>";
+		};
+		8D5FA5631962F92600D013C1 /* Falling Into BH */ = {
+			isa = PBXGroup;
+			children = (
+				043D417F194F2EB200602D0F /* FallingIntoBHScene.h */,
+				043D4180194F2EB200602D0F /* FallingIntoBHScene.m */,
+				043D4181194F2EB200602D0F /* FallingIntoBHViewController.h */,
+				043D4182194F2EB200602D0F /* FallingIntoBHViewController.m */,
+				04241C581964486E0049F80E /* FallingIntoABHMenu.h */,
+				04241C591964486E0049F80E /* FallingIntoABHMenu.m */,
+			);
+			name = "Falling Into BH";
+			sourceTree = "<group>";
+		};
+		8DFE69D3194B420100B92BB6 = {
+			isa = PBXGroup;
+			children = (
+				8DFE69E5194B420100B92BB6 /* BlackHoleApp */,
+				8DFE6A07194B420100B92BB6 /* BlackHoleAppTests */,
+				8DFE69DE194B420100B92BB6 /* Frameworks */,
+				8DFE69DD194B420100B92BB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DFE69DD194B420100B92BB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DFE69DC194B420100B92BB6 /* Journey to a Black Hole.app */,
+				8DFE6A00194B420100B92BB6 /* BlackHoleAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DFE69DE194B420100B92BB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				041A02D119702D7300995C68 /* QuartzCore.framework */,
+				8DFE69DF194B420100B92BB6 /* Foundation.framework */,
+				8DFE69E1194B420100B92BB6 /* CoreGraphics.framework */,
+				8DFE69E3194B420100B92BB6 /* UIKit.framework */,
+				8DFE6A01194B420100B92BB6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DFE69E5194B420100B92BB6 /* BlackHoleApp */ = {
+			isa = PBXGroup;
+			children = (
+				04BBDD97196D8AB8000ACA58 /* Main */,
+				8DFE6ACB194B52B700B92BB6 /* Student Testing */,
+				8DFE6ACC194B52CA00B92BB6 /* Where are the blackholes? */,
+				8DFE6ACD194B52E800B92BB6 /* Science Activities */,
+				8DFE6ACE194B52FF00B92BB6 /* Lesson Plans */,
+				8DFE6ACF194B53AE00B92BB6 /* Journey to Sgr A* */,
+				8D5FA5631962F92600D013C1 /* Falling Into BH */,
+				8D5FA5621962F69200D013C1 /* Observe Falling Into BH */,
+				8DFE69EE194B420100B92BB6 /* AppDelegate.h */,
+				8DFE69EF194B420100B92BB6 /* AppDelegate.m */,
+				8DFE69F1194B420100B92BB6 /* Main_iPhone.storyboard */,
+				8DFE69F4194B420100B92BB6 /* Main_iPad.storyboard */,
+				8DFE69FA194B420100B92BB6 /* Images.xcassets */,
+				04A9D7B9196B1DDA0015FC9B /* appIcon.png */,
+				04A9D7BA196B1DDA0015FC9B /* appIconx2.png */,
+				8DFE69E6194B420100B92BB6 /* Supporting Files */,
+			);
+			path = BlackHoleApp;
+			sourceTree = "<group>";
+		};
+		8DFE69E6194B420100B92BB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				042044341979639A00ED7C32 /* star collapse.jpg */,
+				8D495B6D19794E2E00CE367D /* cofcLogo.jpeg */,
+				043C45C11978176700E2B8B3 /* Milky_Way_New_Clipped.png */,
+				043C45BF197811BA00E2B8B3 /* paper.jpg */,
+				043C45BD197810FE00E2B8B3 /* shoe.jpg */,
+				8DC031F61975B9CC0068AE25 /* sgrA_xrays_mod.jpg */,
+				046514881975894F004913FB /* lensing effect.jpg */,
+				042362ED19742C7000029E26 /* star.png */,
+				04242D1D1974140B008275F1 /* redSuperGiant.png */,
+				04242D1E1974140B008275F1 /* TheSun.png */,
+				04242D1F1974140B008275F1 /* whiteDwarf.png */,
+				046E9989197410EF00A8E2DF /* blankChalkboard.jpg */,
+				041A02CC197025D600995C68 /* nsf_logo.gif */,
+				8D8305DE196EF11F009DF2D4 /* cygDiagram.gif */,
+				8D8305DC196EE1FF009DF2D4 /* ScienceActivityMenu.png */,
+				8D3B65EF196DD55600B43532 /* accretionVidPic.png */,
+				8D3B65ED196DD32D00B43532 /* NASA-BHSimulation.mp4 */,
+				8D3B65EB196DCD0D00B43532 /* starfield.png */,
+				8D3B65E9196DC7CC00B43532 /* accretion.jpg */,
+				8D3B65E7196DA2C000B43532 /* openBook.jpg */,
+				8DD8AF19196C6562004BB48D /* ehtMap1.png */,
+				8DD8AF1A196C6562004BB48D /* ehtMap2.png */,
+				8DD8AF1B196C6562004BB48D /* ehtPic1.png */,
+				8DD8AF1C196C6562004BB48D /* ehtPic2.png */,
+				048EE070196C4C7900B6DDD4 /* sgrA_xrays.jpg */,
+				8D5913E7196B2F3E00BD342D /* singularity.png */,
+				04A9D7CA196B2B420015FC9B /* vortex1.jpg */,
+				04A9D7C4196B2A870015FC9B /* Fishingweights.jpg */,
+				04A9D7C5196B2A870015FC9B /* marbles.jpg */,
+				04A9D7C6196B2A870015FC9B /* Red-Bucket.jpg */,
+				04A9D7C1196B21820015FC9B /* FallIntoBHMenuPic.jpg */,
+				04A9D7BD196B1E780015FC9B /* ergosphere.png */,
+				04A9D7BE196B1E780015FC9B /* eventHorizonDrawing.png */,
+				04A43B74196B196100D7EBD8 /* Activities.png */,
+				04A43B70196B13AF00D7EBD8 /* AstronautFlipBook.png */,
+				04A43B6E196B12C300D7EBD8 /* Spaghettification.jpeg */,
+				04A43B6C196B04BA00D7EBD8 /* EasyExperimentExample.png */,
+				04A43B6A196B003A00D7EBD8 /* EasyExperimentFoamBoard.jpg */,
+				04A43B68196AFF8600D7EBD8 /* EasyExperimentMagnetMarbles.jpg */,
+				04A43B66196AFEB800D7EBD8 /* EasyExperimentMagnet.jpg */,
+				04074E88196ADCFF008E83D0 /* ObserveFalling.png */,
+				04074E86196ADCDE008E83D0 /* FallingInto.png */,
+				8DE763561965DF2D0048249C /* sun.png */,
+				8DE763521965B5560048249C /* black.jpg */,
+				04254B1519647FC4002C6FE7 /* bubble nebula.jpg */,
+				04254B1119647352002C6FE7 /* sgrA radio.jpg */,
+				8D5FA5641963072D00D013C1 /* astro.png */,
+				8D5FA5651963072D00D013C1 /* nightSky.jpg */,
+				8D5FA5661963072D00D013C1 /* nightSky2.jpg */,
+				8DFE6AC9194B470100B92BB6 /* desk.jpg */,
+				8DFE6A90194B437300B92BB6 /* SSABackground.jpg */,
+				8DFE6A91194B437300B92BB6 /* sunMercury.jpg */,
+				8DFE6A92194B437300B92BB6 /* sunPic.jpeg */,
+				8DFE6A93194B437300B92BB6 /* sunpic.jpg */,
+				8DFE6A94194B437300B92BB6 /* sunspic.jpg */,
+				8DFE6A95194B437300B92BB6 /* supernova.mp4 */,
+				8DFE6A97194B437300B92BB6 /* supernovaPic.png */,
+				8DFE6A24194B434100B92BB6 /* bh5.jpg */,
+				8DFE6A25194B434100B92BB6 /* bh6.jpg */,
+				8DFE6A26194B434100B92BB6 /* bh7.jpg */,
+				8DFE6A27194B434100B92BB6 /* bh8.jpg */,
+				8DFE6A28194B434100B92BB6 /* bh9.jpg */,
+				8DFE6A29194B434100B92BB6 /* bh10.jpg */,
+				8DFE6A2A194B434100B92BB6 /* bh11.jpg */,
+				8DFE6A2B194B434100B92BB6 /* bh12.jpg */,
+				8DFE6A2C194B434100B92BB6 /* bh13.jpg */,
+				8DFE6A2D194B434100B92BB6 /* bh14.jpg */,
+				8DFE6A2E194B434100B92BB6 /* bh15.jpg */,
+				8DFE6A2F194B434100B92BB6 /* bh16.jpg */,
+				8DFE6A30194B434100B92BB6 /* bhSpriteImage.png */,
+				8DFE6A31194B434100B92BB6 /* Blackhole.jpg */,
+				8DFE6A33194B434100B92BB6 /* EasyExp2pic1.gif */,
+				8DFE6A34194B434100B92BB6 /* EasyExp2Pic2.png */,
+				8DFE6A38194B434100B92BB6 /* galaxy.jpg */,
+				8DFE6A39194B434100B92BB6 /* galaxyPic.jpg */,
+				8DFE6A3C194B434100B92BB6 /* image3304.png */,
+				8DFE6A3D194B434100B92BB6 /* key.jpg */,
+				8DFE6A3F194B434100B92BB6 /* lensingEffect.png */,
+				8DFE6A45194B434100B92BB6 /* M82pic.jpg */,
+				8DFE6A4B194B434200B92BB6 /* milkyWayOverhead.jpg */,
+				8DFE6A4C194B434200B92BB6 /* MilkyWayQuarter.jpg */,
+				8DFE6A4D194B434200B92BB6 /* ModerateExp2Pic1.png */,
+				8DFE6A4F194B434200B92BB6 /* MWCenter.mov */,
+				8DFE6A53194B434200B92BB6 /* primordialBHpic.jpg */,
+				8DFE6A54194B434200B92BB6 /* Prism_Drawing.png */,
+				8DFE6A55194B434200B92BB6 /* prism_setup.jpg */,
+				8DFE6A57194B434200B92BB6 /* rainbow.jpg */,
+				8DFE6A5A194B434200B92BB6 /* SMBHpic.jpg */,
+				8DFE6A5C194B434200B92BB6 /* SpaceShuttle.jpg */,
+				8DFE6A1B194B42C200B92BB6 /* bh1.jpg */,
+				8DFE6A1C194B42C200B92BB6 /* bh2.jpg */,
+				8DFE6A1D194B42C200B92BB6 /* bh3.jpg */,
+				8DFE6A1E194B42C200B92BB6 /* bh4.jpg */,
+				8DFE69E7194B420100B92BB6 /* BlackHoleApp-Info.plist */,
+				8DFE69E8194B420100B92BB6 /* InfoPlist.strings */,
+				8DFE69EB194B420100B92BB6 /* main.m */,
+				8DFE69ED194B420100B92BB6 /* BlackHoleApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DFE6A07194B420100B92BB6 /* BlackHoleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DFE6A0D194B420100B92BB6 /* BlackHoleAppTests.m */,
+				8DFE6A08194B420100B92BB6 /* Supporting Files */,
+			);
+			path = BlackHoleAppTests;
+			sourceTree = "<group>";
+		};
+		8DFE6A08194B420100B92BB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DFE6A09194B420100B92BB6 /* BlackHoleAppTests-Info.plist */,
+				8DFE6A0A194B420100B92BB6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DFE6ACB194B52B700B92BB6 /* Student Testing */ = {
+			isa = PBXGroup;
+			children = (
+				8DFE6ABD194B465200B92BB6 /* EasyQuizViewController.h */,
+				8DFE6ABE194B465200B92BB6 /* EasyQuizViewController.m */,
+				8DFE6ABF194B465200B92BB6 /* HardQuizViewController.h */,
+				8DFE6AC0194B465200B92BB6 /* HardQuizViewController.m */,
+				8DFE6AC1194B465200B92BB6 /* MediumQuizViewController.h */,
+				8DFE6AC2194B465200B92BB6 /* MediumQuizViewController.m */,
+				8DFE6AC3194B465200B92BB6 /* StudentTestingViewController.h */,
+				8DFE6AC4194B465200B92BB6 /* StudentTestingViewController.m */,
+			);
+			name = "Student Testing";
+			sourceTree = "<group>";
+		};
+		8DFE6ACC194B52CA00B92BB6 /* Where are the blackholes? */ = {
+			isa = PBXGroup;
+			children = (
+				8DFE6A9D194B437300B92BB6 /* WhereAreTheBHScene.h */,
+				8DFE6A9E194B437300B92BB6 /* WhereAreTheBHScene.m */,
+				8DFE6A9F194B437300B92BB6 /* WhereAreTheBHViewController.h */,
+				8DFE6AA0194B437300B92BB6 /* WhereAreTheBHViewController.m */,
+			);
+			name = "Where are the blackholes?";
+			sourceTree = "<group>";
+		};
+		8DFE6ACD194B52E800B92BB6 /* Science Activities */ = {
+			isa = PBXGroup;
+			children = (
+				8DFE6AA1194B437300B92BB6 /* EasyViewController.h */,
+				8DFE6AA2194B437300B92BB6 /* EasyViewController.m */,
+				8DFE6AA3194B437300B92BB6 /* HardViewController.h */,
+				8DFE6AA4194B437300B92BB6 /* HardViewController.m */,
+				8DFE6AA7194B437300B92BB6 /* ModerateViewController.h */,
+				8DFE6AA8194B437300B92BB6 /* ModerateViewController.m */,
+				8DFE6AA9194B437300B92BB6 /* StudentScienceActivitiesViewController.h */,
+				8DFE6AAA194B437300B92BB6 /* StudentScienceActivitiesViewController.m */,
+			);
+			name = "Science Activities";
+			sourceTree = "<group>";
+		};
+		8DFE6ACE194B52FF00B92BB6 /* Lesson Plans */ = {
+			isa = PBXGroup;
+			children = (
+				8DFE6A35194B434100B92BB6 /* EasyLessonPlanViewController.h */,
+				8DFE6A36194B434100B92BB6 /* EasyLessonPlanViewController.m */,
+				8DFE6A3A194B434100B92BB6 /* HardLessonPlanViewController.h */,
+				8DFE6A3B194B434100B92BB6 /* HardLessonPlanViewController.m */,
+				8DFE6A42194B434100B92BB6 /* LessonPlansViewController.h */,
+				8DFE6A43194B434100B92BB6 /* LessonPlansViewController.m */,
+				8DFE6A48194B434200B92BB6 /* MiddleLessonPlanViewController.h */,
+				8DFE6A49194B434200B92BB6 /* MiddleLessonPlanViewController.m */,
+			);
+			name = "Lesson Plans";
+			sourceTree = "<group>";
+		};
+		8DFE6ACF194B53AE00B92BB6 /* Journey to Sgr A* */ = {
+			isa = PBXGroup;
+			children = (
+				8DFE6AA5194B437300B92BB6 /* Journey.h */,
+				8DFE6AA6194B437300B92BB6 /* Journey.m */,
+			);
+			name = "Journey to Sgr A*";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DFE69DB194B420100B92BB6 /* BlackHoleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DFE6A11194B420100B92BB6 /* Build configuration list for PBXNativeTarget "BlackHoleApp" */;
+			buildPhases = (
+				8DFE69D8194B420100B92BB6 /* Sources */,
+				8DFE69D9194B420100B92BB6 /* Frameworks */,
+				8DFE69DA194B420100B92BB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlackHoleApp;
+			productName = BlackHoleApp;
+			productReference = 8DFE69DC194B420100B92BB6 /* Journey to a Black Hole.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DFE69FF194B420100B92BB6 /* BlackHoleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DFE6A14194B420100B92BB6 /* Build configuration list for PBXNativeTarget "BlackHoleAppTests" */;
+			buildPhases = (
+				8DFE69FC194B420100B92BB6 /* Sources */,
+				8DFE69FD194B420100B92BB6 /* Frameworks */,
+				8DFE69FE194B420100B92BB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DFE6A06194B420100B92BB6 /* PBXTargetDependency */,
+			);
+			name = BlackHoleAppTests;
+			productName = BlackHoleAppTests;
+			productReference = 8DFE6A00194B420100B92BB6 /* BlackHoleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DFE69D4194B420100B92BB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "College of Charleston";
+				TargetAttributes = {
+					8DFE69DB194B420100B92BB6 = {
+						DevelopmentTeam = S8F9PSZQ6N;
+					};
+					8DFE69FF194B420100B92BB6 = {
+						TestTargetID = 8DFE69DB194B420100B92BB6;
+					};
+				};
+			};
+			buildConfigurationList = 8DFE69D7194B420100B92BB6 /* Build configuration list for PBXProject "BlackHoleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DFE69D3194B420100B92BB6;
+			productRefGroup = 8DFE69DD194B420100B92BB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DFE69DB194B420100B92BB6 /* BlackHoleApp */,
+				8DFE69FF194B420100B92BB6 /* BlackHoleAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DFE69DA194B420100B92BB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D3B65E8196DA2C000B43532 /* openBook.jpg in Resources */,
+				8DD8AF24196C7644004BB48D /* EasyExperimentExample.png in Resources */,
+				8DFE6A5E194B434200B92BB6 /* bh6.jpg in Resources */,
+				8D5FA5691963072D00D013C1 /* nightSky2.jpg in Resources */,
+				8115A276196C6DD000F81658 /* Fishingweights.jpg in Resources */,
+				8DFE6AAC194B437300B92BB6 /* sunMercury.jpg in Resources */,
+				8DFE6A8F194B434200B92BB6 /* SpaceShuttle.jpg in Resources */,
+				8DD8AF1F196C6562004BB48D /* ehtPic1.png in Resources */,
+				04074E87196ADCDE008E83D0 /* FallingInto.png in Resources */,
+				8DD8AF1E196C6562004BB48D /* ehtMap2.png in Resources */,
+				043C45C0197811BA00E2B8B3 /* paper.jpg in Resources */,
+				8DFE6A62194B434200B92BB6 /* bh10.jpg in Resources */,
+				8115A282196C6E0700F81658 /* EasyExperimentMagnet.jpg in Resources */,
+				8DFE6A69194B434200B92BB6 /* bhSpriteImage.png in Resources */,
+				8115A279196C6DE100F81658 /* ergosphere.png in Resources */,
+				04242D211974140B008275F1 /* TheSun.png in Resources */,
+				8DFE6A73194B434200B92BB6 /* image3304.png in Resources */,
+				8DFE6A64194B434200B92BB6 /* bh12.jpg in Resources */,
+				8DC031F71975B9CC0068AE25 /* sgrA_xrays_mod.jpg in Resources */,
+				8DFE6AAD194B437300B92BB6 /* sunPic.jpeg in Resources */,
+				043C45BE197810FE00E2B8B3 /* shoe.jpg in Resources */,
+				8DFE6A84194B434200B92BB6 /* MWCenter.mov in Resources */,
+				8DFE6A63194B434200B92BB6 /* bh11.jpg in Resources */,
+				8DFE6AAE194B437300B92BB6 /* sunpic.jpg in Resources */,
+				8DFE6A70194B434200B92BB6 /* galaxy.jpg in Resources */,
+				04254B1219647352002C6FE7 /* sgrA radio.jpg in Resources */,
+				8DFE6A6C194B434200B92BB6 /* EasyExp2pic1.gif in Resources */,
+				8115A277196C6DD400F81658 /* marbles.jpg in Resources */,
+				8DFE6AB2194B437300B92BB6 /* supernovaPic.png in Resources */,
+				8DFE6A87194B434200B92BB6 /* primordialBHpic.jpg in Resources */,
+				8DFE6AB0194B437300B92BB6 /* supernova.mp4 in Resources */,
+				8DFE6A89194B434200B92BB6 /* prism_setup.jpg in Resources */,
+				8D3B65EA196DC7CC00B43532 /* accretion.jpg in Resources */,
+				8DFE6A5F194B434200B92BB6 /* bh7.jpg in Resources */,
+				046E998A197410EF00A8E2DF /* blankChalkboard.jpg in Resources */,
+				8DD8AF20196C6562004BB48D /* ehtPic2.png in Resources */,
+				8DFE6A66194B434200B92BB6 /* bh14.jpg in Resources */,
+				8DE763571965DF2D0048249C /* sun.png in Resources */,
+				8115A27A196C6DE500F81658 /* eventHorizonDrawing.png in Resources */,
+				8DFE6A74194B434200B92BB6 /* key.jpg in Resources */,
+				8DFE6A6D194B434200B92BB6 /* EasyExp2Pic2.png in Resources */,
+				046514891975894F004913FB /* lensing effect.jpg in Resources */,
+				04242D221974140B008275F1 /* whiteDwarf.png in Resources */,
+				8115A274196C6DC200F81658 /* sgrA_xrays.jpg in Resources */,
+				8DE763531965B5570048249C /* black.jpg in Resources */,
+				8D495B6E19794E2E00CE367D /* cofcLogo.jpeg in Resources */,
+				8DFE69FB194B420100B92BB6 /* Images.xcassets in Resources */,
+				041A02CD197025D600995C68 /* nsf_logo.gif in Resources */,
+				8115A278196C6DD900F81658 /* Red-Bucket.jpg in Resources */,
+				8115A275196C6DC900F81658 /* vortex1.jpg in Resources */,
+				04242D201974140B008275F1 /* redSuperGiant.png in Resources */,
+				8DFE6ACA194B470100B92BB6 /* desk.jpg in Resources */,
+				8DFE6AAF194B437300B92BB6 /* sunspic.jpg in Resources */,
+				8DFE6A61194B434200B92BB6 /* bh9.jpg in Resources */,
+				8DD8AF1D196C6562004BB48D /* ehtMap1.png in Resources */,
+				8D8305DD196EE1FF009DF2D4 /* ScienceActivityMenu.png in Resources */,
+				8DFE6A68194B434200B92BB6 /* bh16.jpg in Resources */,
+				8DFE6A60194B434200B92BB6 /* bh8.jpg in Resources */,
+				042362EE19742C7000029E26 /* star.png in Resources */,
+				8DFE6A67194B434200B92BB6 /* bh15.jpg in Resources */,
+				8DFE6A81194B434200B92BB6 /* MilkyWayQuarter.jpg in Resources */,
+				8DFE6A8D194B434200B92BB6 /* SMBHpic.jpg in Resources */,
+				8DFE6A80194B434200B92BB6 /* milkyWayOverhead.jpg in Resources */,
+				8D3B65EC196DCD0D00B43532 /* starfield.png in Resources */,
+				8D5FA5681963072D00D013C1 /* nightSky.jpg in Resources */,
+				04BBDD9F196DC918000ACA58 /* (null) in Resources */,
+				8D5913E8196B2F3E00BD342D /* singularity.png in Resources */,
+				8DFE6A76194B434200B92BB6 /* lensingEffect.png in Resources */,
+				8DFE6A5D194B434200B92BB6 /* bh5.jpg in Resources */,
+				8115A273196C6DBD00F81658 /* FallIntoBHMenuPic.jpg in Resources */,
+				8D3B65F0196DD55600B43532 /* accretionVidPic.png in Resources */,
+				8D8305DF196EF11F009DF2D4 /* cygDiagram.gif in Resources */,
+				8DFE6A23194B42C200B92BB6 /* bh4.jpg in Resources */,
+				04074E89196ADCFF008E83D0 /* ObserveFalling.png in Resources */,
+				8DFE6A22194B42C200B92BB6 /* bh3.jpg in Resources */,
+				8DFE6AAB194B437300B92BB6 /* SSABackground.jpg in Resources */,
+				8DFE6A65194B434200B92BB6 /* bh13.jpg in Resources */,
+				8115A27D196C6DF300F81658 /* AstronautFlipBook.png in Resources */,
+				043C45C21978176700E2B8B3 /* Milky_Way_New_Clipped.png in Resources */,
+				8DFE6A82194B434200B92BB6 /* ModerateExp2Pic1.png in Resources */,
+				04254B1619647FC4002C6FE7 /* bubble nebula.jpg in Resources */,
+				8DFE6A20194B42C200B92BB6 /* bh1.jpg in Resources */,
+				8DD8AF23196C75FD004BB48D /* Main_iPad.storyboard in Resources */,
+				8D5FA5671963072D00D013C1 /* astro.png in Resources */,
+				8115A27B196C6DEA00F81658 /* Activities.png in Resources */,
+				8D3B65EE196DD32D00B43532 /* NASA-BHSimulation.mp4 in Resources */,
+				8DFE6A7B194B434200B92BB6 /* M82pic.jpg in Resources */,
+				8DFE6A8B194B434200B92BB6 /* rainbow.jpg in Resources */,
+				8DFE6A21194B42C200B92BB6 /* bh2.jpg in Resources */,
+				8DFE6A88194B434200B92BB6 /* Prism_Drawing.png in Resources */,
+				042044351979639A00ED7C32 /* star collapse.jpg in Resources */,
+				8DFE6A6A194B434200B92BB6 /* Blackhole.jpg in Resources */,
+				8115A27E196C6DF600F81658 /* Spaghettification.jpeg in Resources */,
+				8115A281196C6E0300F81658 /* EasyExperimentMagnetMarbles.jpg in Resources */,
+				8DFE69EA194B420100B92BB6 /* InfoPlist.strings in Resources */,
+				8115A280196C6DFF00F81658 /* EasyExperimentFoamBoard.jpg in Resources */,
+				8DFE6A71194B434200B92BB6 /* galaxyPic.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DFE69FE194B420100B92BB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFE6A0C194B420100B92BB6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DFE69D8194B420100B92BB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041A02D019702D2A00995C68 /* CustomSegues.m in Sources */,
+				8DFE6AB3194B437300B92BB6 /* ViewController.m in Sources */,
+				8DFE6AC8194B465200B92BB6 /* StudentTestingViewController.m in Sources */,
+				8DFE6AC7194B465200B92BB6 /* MediumQuizViewController.m in Sources */,
+				8DFE6AB7194B437300B92BB6 /* WhereAreTheBHViewController.m in Sources */,
+				8DFE6A79194B434200B92BB6 /* LessonPlansViewController.m in Sources */,
+				043D4183194F2EB200602D0F /* FallingIntoBHScene.m in Sources */,
+				8DFE6ABB194B437300B92BB6 /* ModerateViewController.m in Sources */,
+				8DFE6AC5194B465200B92BB6 /* EasyQuizViewController.m in Sources */,
+				8D5FA55E1962F41400D013C1 /* ObserveFallingIntoBHViewController.m in Sources */,
+				043D4184194F2EB200602D0F /* FallingIntoBHViewController.m in Sources */,
+				8DFE69F0194B420100B92BB6 /* AppDelegate.m in Sources */,
+				8D5FA5611962F48C00D013C1 /* ObserveFallingIntoBHScene.m in Sources */,
+				8DFE6ABC194B437300B92BB6 /* StudentScienceActivitiesViewController.m in Sources */,
+				8DFE6AB8194B437300B92BB6 /* EasyViewController.m in Sources */,
+				8DFE6A7E194B434200B92BB6 /* MiddleLessonPlanViewController.m in Sources */,
+				8DFE6A6E194B434200B92BB6 /* EasyLessonPlanViewController.m in Sources */,
+				8DFE6ABA194B437300B92BB6 /* Journey.m in Sources */,
+				04241C5A1964486E0049F80E /* FallingIntoABHMenu.m in Sources */,
+				8DFE6AB9194B437300B92BB6 /* HardViewController.m in Sources */,
+				8DFE6AC6194B465200B92BB6 /* HardQuizViewController.m in Sources */,
+				8DFE6AB6194B437300B92BB6 /* WhereAreTheBHScene.m in Sources */,
+				8DFE6A72194B434200B92BB6 /* HardLessonPlanViewController.m in Sources */,
+				8DFE69EC194B420100B92BB6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DFE69FC194B420100B92BB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFE6A0E194B420100B92BB6 /* BlackHoleAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DFE6A06194B420100B92BB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DFE69DB194B420100B92BB6 /* BlackHoleApp */;
+			targetProxy = 8DFE6A05194B420100B92BB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DFE69E8194B420100B92BB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DFE69E9194B420100B92BB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8DFE69F1194B420100B92BB6 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DFE69F2194B420100B92BB6 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8DFE69F4194B420100B92BB6 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DFE69F5194B420100B92BB6 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8DFE6A0A194B420100B92BB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DFE6A0B194B420100B92BB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DFE6A0F194B420100B92BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DFE6A10194B420100B92BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DFE6A12194B420100B92BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlackHoleApp/BlackHoleApp-Prefix.pch";
+				INFOPLIST_FILE = "BlackHoleApp/BlackHoleApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				PRODUCT_NAME = "Journey to a Black Hole";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8DFE6A13194B420100B92BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlackHoleApp/BlackHoleApp-Prefix.pch";
+				INFOPLIST_FILE = "BlackHoleApp/BlackHoleApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				PRODUCT_NAME = "Journey to a Black Hole";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8DFE6A15194B420100B92BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlackHoleApp.app/BlackHoleApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlackHoleApp/BlackHoleApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BlackHoleAppTests/BlackHoleAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8DFE6A16194B420100B92BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlackHoleApp.app/BlackHoleApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlackHoleApp/BlackHoleApp-Prefix.pch";
+				INFOPLIST_FILE = "BlackHoleAppTests/BlackHoleAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DFE69D7194B420100B92BB6 /* Build configuration list for PBXProject "BlackHoleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DFE6A0F194B420100B92BB6 /* Debug */,
+				8DFE6A10194B420100B92BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DFE6A11194B420100B92BB6 /* Build configuration list for PBXNativeTarget "BlackHoleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DFE6A12194B420100B92BB6 /* Debug */,
+				8DFE6A13194B420100B92BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DFE6A14194B420100B92BB6 /* Build configuration list for PBXNativeTarget "BlackHoleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DFE6A15194B420100B92BB6 /* Debug */,
+				8DFE6A16194B420100B92BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DFE69D4194B420100B92BB6 /* Project object */;
+}
